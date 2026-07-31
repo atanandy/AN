@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Your Name | Postdoctoral Researcher</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+}
+
+
+/* ---------- HEADER ---------- */
+
+/* ---------- HEADER ---------- */
+
+header{
+    background:linear-gradient(135deg,#003973,#1e88e5);
+    color:white;
+    padding:50px 10%;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    position:relative;
+}
+
+
+.profile{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:6px solid white;
+    object-fit:cover;
+}
+
+
+.header-text{
+    text-align:left;
+}
+
+
+header h1{
+    font-size:42px;
+    margin:0 0 10px;
+}
+
+
+header p{
+    font-size:18px;
+    line-height:1.5;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav{
+    position:absolute;
+    top:35px;
+    right:8%;
+}
+
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+
+nav a:hover{
+    color:#ffd166;
+}
+
+/* ---------- CONTENT ---------- */
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+
+section{
+    background:white;
+    margin:35px 0;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+h2{
+    color:#003973;
+    border-bottom:3px solid #1e88e5;
+    padding-bottom:10px;
+}
+
+
+/* ---------- RESEARCH CARDS ---------- */
+
+.grid{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+
+.card{
+    flex:1;
+    min-width:250px;
+    padding:25px;
+    background:#eaf4ff;
+    border-radius:12px;
+    border-top:5px solid #1e88e5;
+}
+
+
+.card h3{
+    color:#003973;
+}
+
+
+/* ---------- PUBLICATIONS ---------- */
+
+
+.paper{
+    padding:20px;
+    margin:15px 0;
+    background:#fafafa;
+    border-left:5px solid #1e88e5;
+}
+
+
+
+/* ---------- TIMELINE ---------- */
+
+
+.timeline{
+    border-left:4px solid #1e88e5;
+    padding-left:25px;
+}
+
+
+.timeline h3{
+    color:#003973;
+}
+
+
+/* ---------- CONTACT ---------- */
+
+
+.contact a{
+    color:#1e88e5;
+    text-decoration:none;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:#002b5c;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<img class="profile" src="photo.jpg">
+
+
+<div class="header-text">
+
+<h1>Your Name</h1>
+
+<p>
+Postdoctoral Researcher<br>
+Institute / University Name
+</p>
+
+
+<p>
+Single Molecule Fluorescence Spectroscopy|
+FCS |
+MIET/GIET |
+Membrane Biophysics
+</p>
+
+
+</div>
+
+
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#research">Research</a>
+
+<a href="#publication">Publications</a>
+
+<a href="#education">Education</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+</header>
+
+
+
+<div class="container">
+
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a postdoctoral researcher working on advanced fluorescence
+spectroscopy techniques to understand molecular dynamics and
+biophysical processes. My research focuses on single molecule
+fluorescence, membrane biophysics, DNA dynamics and fluorescence
+lifetime based approaches.
+</p>
+
+</section>
+
+
+
+
+<section id="research">
+
+<h2>Research Interests</h2>
+
+
+<div class="grid">
+
+
+<div class="card">
+
+<h3>Fluorescence Correlation Spectroscopy</h3>
+
+<p>
+FCS analysis of molecular diffusion, membrane organization,
+and conformational dynamics at the single molecule level.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>MIET / GIET</h3>
+
+<p>
+Graphene-induced energy transfer and fluorescence lifetime
+measurements for nanoscale distance determination.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>DNA–Membrane Interaction</h3>
+
+<p>
+Understanding how biomolecular interactions influence
+DNA dynamics and membrane organization.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="publication">
+
+<h2>Selected Publications</h2>
+
+
+<div class="paper">
+
+<b>Publication Title 1</b><br>
+Author list. <i>Journal Name</i>, Year.<br>
+DOI: XXXXX
+
+</div>
+
+
+<div class="paper">
+
+<b>Publication Title 2</b><br>
+Author list. <i>Journal Name</i>, Year.<br>
+DOI: XXXXX
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="education">
+
+<h2>Education & Research Experience</h2>
+
+
+<div class="timeline">
+
+
+<h3>Postdoctoral Researcher</h3>
+
+<p>
+Institute Name<br>
+Year - Present
+</p>
+
+
+<h3>PhD</h3>
+
+<p>
+University Name<br>
+Year
+</p>
+
+
+<h3>MSc / BSc</h3>
+
+<p>
+University Name
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+
+<p>
+Email:
+<a href="mailto:your.email@example.com">
+your.email@example.com
+</a>
+</p>
+
+
+<p>
+<a href="#">Google Scholar</a> |
+<a href="#">ORCID</a> |
+<a href="#">GitHub</a>
+</p>
+
+
+</section>
+
+
+
+</div>
+
+
+
+<footer>
+
+© 2026 Your Name | Academic Website
+
+</footer>
+
+
+</body>
+
+</html>
