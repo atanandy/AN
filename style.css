@@ -103,4 +103,10 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
+    
+}
+
+about-text{
+    font-size:20px;
+    line-height:1.8;
 }
