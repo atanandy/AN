@@ -110,3 +110,8 @@ footer{
     font-size:21px;
     line-height:1.8;
 }
+.pub{
+    margin:20px 0;
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+}
