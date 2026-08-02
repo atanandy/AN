@@ -137,5 +137,6 @@ footer{
 }
 .pub-title{
     font-size:20px;      /* increase this if you want bigger */
-    font-weight:600;
+    font-weight:500;
+    color:#1e88e5;   /* blue */
 }
