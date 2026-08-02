@@ -135,6 +135,26 @@ footer{
 .pub i{
     color:#444;
 }
+
+.pub-list{
+    counter-reset: pub-counter 13;   /* you have 13 papers */
+}
+
+.pub{
+    counter-increment: pub-counter -1;
+    position:relative;
+    padding-left:35px;
+}
+
+.pub::before{
+    content: counter(pub-counter) ".";
+    position:absolute;
+    left:0;
+    top:6px;
+    font-weight:bold;
+    color:#1e88e5;
+    font-size:18px;
+}
 .pub-title{
     font-size:20px;      /* increase this if you want bigger */
     font-weight:400;
