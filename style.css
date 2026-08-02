@@ -137,11 +137,11 @@ footer{
 }
 
 .pub-list{
-    counter-reset: pub-counter;   /* start from 0 → first becomes 1 */
+    counter-reset: pub-counter 13;   /* you have 13 papers */
 }
 
 .pub{
-    counter-increment: pub-counter;   /* normal counting 1,2,3 */
+    counter-increment: pub-counter -1;
     position:relative;
     padding-left:35px;
 }
@@ -152,6 +152,6 @@ footer{
     left:0;
     top:6px;
     font-weight:bold;
-    color:black;      /* ✅ black color */
+    color:#1e88e5;
     font-size:18px;
 }
