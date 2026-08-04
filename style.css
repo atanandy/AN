@@ -91,6 +91,12 @@ h2{
     border-radius:10px;
 }
 
+.card p{
+    text-align:justify;
+    line-height:1.8;
+    font-size:16px;
+}
+
 .paper{
     margin:15px 0;
     padding:15px;
